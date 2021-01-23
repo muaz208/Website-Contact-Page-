@@ -1,0 +1,566 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.bodyy{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .Contactt{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:black;
+    /*background-image:
+    radial-gradient(coral, rgba(126, 126, 126, 0.2) 2px, transparent 40px),
+    radial-gradient(cyan, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(cyan, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(red, rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;*/
+    background-image: url(../images/about-img-6.png);
+    background-size: cover; 
+    background-position:center;
+    
+  
+  
+  
+  }
+  
+  .Contactt .contentt{
+  
+    max-width: 800px;
+    text-align: center;
+  
+  
+  }
+  
+  .Contactt .contentt h2{
+    font-size: 90px;
+    font-weight: 500;
+    color:rgb(230, 83, 16);
+  }
+  
+  .Contactt .contentt p{
+    font-weight: 300;
+    color: #000;
+  }
+  
+  .Containerr
+  {
+    width:100%;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-top:-30px ;
+    padding: 50px;
+    border-radius: 25px;
+  }
+  
+  .Containerr .ContactInfoo
+  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .Containerr .ContactInfoo h2
+  {
+    width: 50%;
+    position: relative;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: rgb(230, 83, 16);
+    align-items: center;
+    
+    
+  }
+  
+  .Containerr .ContactInfoo .boxx
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  .Containerr .ContactInfoo .boxx1
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  .Containerr .ContactInfoo .boxx2
+  {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  
+  .Containerr .ContactInfoo .boxx .iconn
+  {
+    min-width: 60px;
+    height: 60px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color:black;
+  }
+  
+  .Containerr .ContactInfoo .boxx1 .iconn
+  {
+    min-width: 60px;
+    height: 60px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color:black;
+  }
+  
+  .Containerr .ContactInfoo .boxx2 .iconn
+  {
+    min-width: 60px;
+    height: 60px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color:black;
+  }
+  
+  
+  
+  .Containerr .ContactInfoo .boxx .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+  .Containerr .ContactInfoo .boxx .texttt p{
+      
+
+  }
+  
+  
+  .Containerr .ContactInfoo .boxx1 .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  
+  
+  .Containerr .ContactInfoo .boxx2 .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+  }
+  
+  .Containerr .ContactInfoo .boxx .texttt h3
+  {
+    font-weight: 500;
+    color: rgb(230, 83, 16);
+    margin-bottom: -15px;
+    
+  }
+  
+  .Containerr .ContactInfoo .boxx1 .texttt h3
+  {
+    font-weight: 500;
+    color: rgb(230, 83, 16);
+    margin-bottom: -15px;
+    
+  }
+  
+  .Containerr .ContactInfoo .boxx2 .texttt h3
+  {
+    font-weight: 500;
+    color: rgb(230, 83, 16);
+    margin-bottom: -15px;
+    
+  }
+  .boxx
+  {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(39, 33, 33);
+    background-size: 15px;
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .boxx1
+  {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(39, 33, 33);
+    background-size: 15px;
+    width: 350px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .boxx2
+  {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px rgb(39, 33, 33);
+    background-size: 15px;
+    width: 350px;
+    border-radius: 15px;
+  }
+  
+  
+  
+  .contactForm
+  {
+    width: 50%;
+    padding: 40px;
+    background:white;
+  }
+  
+  .contactForm h2
+  {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .contactForm .InputBox
+  {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+  
+  }
+  .InputBox input[type="text"]
+  {
+    font-family: 'Poppins', sans-serif;
+  
+  }
+  
+  .contactForm .InputBox input,
+  .contactForm .InputBox textarea
+  {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+  }
+  
+  .contactForm .InputBox span
+  {
+    position: absolute;
+    left: 0;
+    padding: 0px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  
+  .contactForm .InputBox input:focus ~ span,
+  .contactForm .InputBox input:valid ~ span,
+  .contactForm .InputBox textarea:focus ~ span,
+  .contactForm .InputBox textarea:valid ~ span
+  
+  
+  {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+    
+  
+  
+  }
+  
+  .contactForm .InputBox input[type="submit"]
+  {
+    width: 100px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .contactForm .InputBox input[type="submit"]:hover
+  {
+    transition: 0.2s;
+    background: orange;
+  
+  }
+  textarea {
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+  }
+  
+  .iconn2
+  {
+    max-width: 30px;
+    height: 30px;
+    background:white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color:white;
+    transform: translateY(100%);
+    text-decoration: none;
+    
+    
+  }
+  .Containerr .ContactInfoo .boxx .iconn2 {
+    background: #3b5998;
+  }
+  
+  .Containerr .ContactInfoo .boxx1 .iconn2 {
+    background: #3b5998;
+  }
+  
+  .Containerr .ContactInfoo .boxx2 .iconn2 {
+    background: #3b5998;
+  }
+  
+  
+  
+  
+  .Containerr .ContactInfoo .boxx2 .iconn2 :hover {
+    
+    color: black;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  
+  
+  .iconn3
+  {
+    max-width: 30px;
+    height: 30px;
+    background:white;
+    display: flex;
+    position: relative;
+    transform: translateX(130%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  .Containerr .ContactInfoo .boxx2 .iconn3 {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  
+  
+  
+  }
+  
+  .Containerr .ContactInfoo .boxx2 .iconn3 :hover { 
+    color: #000;
+    transition: 0.5s;
+    cursor: pointer;
+  
+  
+  }
+  
+  .iconn4
+  {
+    max-width: 30px;
+    height: 30px;
+    background:white;
+    display: flex;
+    position: relative;
+    transform: translateX(250%);
+    bottom: 30px;
+    margin-bottom: -30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    
+  }
+  
+  .Containerr .ContactInfoo .boxx2 .iconn4 {
+    background: #0e76a8; 
+  }
+  .Containerr .ContactInfoo .boxx2 .iconn4 :hover {
+    color: black;
+    transition: 0.2s;
+    cursor: pointer; 
+  }
+  
+  
+  
+  
+  
+  @media all and (max-width: 1336px){
+  
+    .ContactInfoo 
+    {
+      margin-right: 40px;
+    }
+  
+    .Containerr .ContactInfoo h2
+  {
+    width: 100%;
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    color: rgb(230, 83, 16);
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  }
+  
+  
+  
+  
+  
+  @media all and (max-width: 990px)
+  {
+    .Contactt
+    {
+      padding: 50px;
+      
+    }
+    .Containerr
+    {
+      flex-direction: column;
+      margin-top: -30px;
+  
+    }
+    .ContactInfoo 
+    {
+      margin-right: 1px;
+    }
+  
+    .Containerr .ContactInfoo
+    {
+  
+      margin-bottom: 50px;
+      
+  
+    }
+  
+    .Containerr .ContactInfoo h2
+  {
+   position: relative;
+   width: 100%;
+   left: 0px;
+   right: 0px;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  
+    .Containerr .ContactInfoo,
+    .contactForm
+    {
+      width: 100%;
+  
+    }
+    .boxx
+    {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .boxx1
+    {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .boxx2
+    {
+      width: 100%;
+      align-items: center;
+    }
+    .Containerr .ContactInfoo .boxx .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    justify-content: center;
+  }
+  .Containerr .ContactInfoo .boxx1 .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    justify-content: center;
+  }
+  .Containerr .ContactInfoo .boxx2 .texttt
+  {
+    display: flex;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  }
